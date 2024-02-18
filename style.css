@@ -118,6 +118,12 @@ body, html{
     cursor: pointer;
 }
 
+.check:hover{
+    transition: 0.25s;
+    background-color: #ffe606;
+    color: black;
+}
+
 /* ------------------- div2 ------------------------- */
 
 .div2{
@@ -126,6 +132,7 @@ body, html{
     padding: 20px 20px;
     margin: 20px 30px;
     background-color: rgb(236, 236, 236);
+    display: none;
 }
 
 .div2 h2{
@@ -159,6 +166,387 @@ body, html{
 .sections .section:hover{
     border-bottom: #ffe606 solid;
 }
+ 
+/* ---- owner ----- */
+
+.owner{
+    margin: 20px 10vmax;
+    padding: 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.owner1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ownername{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.ownername h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.ownername p{
+    font-size: 18px;
+}
+
+.ownerGuardian{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.ownerGuardian h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.ownerGuardian p{
+    font-size: 18px;
+}
+
+
+
+.ownerHand{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 20px;   
+}
+
+.ownerHand h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.ownerHand p{
+    font-size: 18px;
+}
+
+.ownerAddress{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.ownerAddress h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.ownerAddress p{
+    font-size: 18px;
+}
+
+/* --------- vdetail ------------------ */
+
+.vdetails{
+    margin: 20px 10vmax;
+    padding: 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: none;
+}
+
+.makerName{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.makerName h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.makerName p{
+    font-size: 18px;
+}
+
+.modelName{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.modelName h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.modelName p{
+    font-size: 18px;
+}
+
+.details1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fueltype{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.fueltype h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.fueltype p{
+    font-size: 18px;
+}
+
+
+.manufacturingDate{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.manufacturingDate h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.manufacturingDate p{
+    font-size: 18px;
+}
+
+.engineno{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.engineno h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.engineno p{
+    font-size: 18px;
+}
+
+.chassisNo{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.chassisNo h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.chassisNo p{
+    font-size: 18px;
+}
+
+/* ------------ Insurance ----------------- */
+
+.Insurance{
+    margin: 20px 10vmax;
+    padding: 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: none;
+}
+
+.insurancepolicyno{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.insurancepolicyno h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.insurancepolicyno p{
+    font-size: 18px;
+}
+
+.insurance1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insuranceDate{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.insuranceDate h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.insuranceDate p{
+    font-size: 18px;
+}
+
+
+.insuranceprovider{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px 0px;
+}
+
+.insuranceprovider h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.insuranceprovider p{
+    font-size: 18px;
+}
+
+/* -------------- Other ------------------------ */
+
+.Other{
+    margin: 20px 10vmax;
+    padding: 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+.fitnessDate{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px 0px;
+}
+
+.fitnessDate h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fDate p{
+    font-size: 18px;
+}
+
+.fitupto{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px 0px;
+}
+
+.fitupto h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fupto p{
+    font-size: 18px;
+}
+
+.puccno{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px 0px;
+}
+
+.puccno h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.puno p{
+    font-size: 18px;
+}
+
+.pucexpiry{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px 0px;
+}
+
+.pucexpiry h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pexpiry p{
+    font-size: 18px;
+}
+
+.isblacklisted{
+    padding: 20px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px 0px;
+}
+
+.isblacklisted h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.isblac6 p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
 
 
 

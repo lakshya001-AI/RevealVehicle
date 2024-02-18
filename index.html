@@ -15,7 +15,7 @@
   <body>
 
     <nav class="navbar">
-        <h3>Reveal<span style="color: #ffe606;">Vehicle</span></h3>
+        <h3>Reveal<span style="color: #ffe606;"> Vehicle</span></h3>
         <button class="contactus">Contact Us</button>
     </nav>
 
@@ -27,12 +27,12 @@
               Introducing RevealVehicle, your one-stop destination for comprehensive vehicle details. Simply enter the registration number and unveil vital information such as owner name, insurance status, engine specifics, make and model, and fitness details. Make informed decisions effortlessly with 
               <div class="reveal">
                 <span  style="color: black; font-weight: 600;">Reveal</span>
-                <span style="font-weight: 600; color:#ffe606">Vehicle</span>
+                <span style="font-weight: 600; color:#ffe606;">Vehicle</span>
             </div>
             </p>
 
             <input type="text" class="vehicleinput" placeholder="MH12AB0000">
-            <button class="check">Check</button>
+            <button class="check" onclick="ShowDiv()">Check</button>
 
 
               
@@ -40,28 +40,136 @@
     </div>
 
 
-    <div class="div2">
+    <div class="div2" id="div2">
         <div class="viewdetailsdiv"><h2>Vehicle Details</h2></div>
         <div class="sections">
-            <a href="#owner" class="section" id="section1">Owner</a>
-            <a href="#vdetails" class="section" id="section2">Vehicle Details</a>
-            <a href="#Insurance" class="section" id="section3">Insurance</a>
-            <a href="#Other" class="section" id="section4">Other</a>
+            <a href="#owner" class="section" id="section1" onclick="displayowner()">Owner</a>
+            <a href="#vdetails" class="section" id="section2" onclick="displayvdetail()">Vehicle Details</a>
+            <a href="#Insurance" class="section" id="section3" onclick="displayInsurance()">Insurance</a>
+            <a href="#Other" class="section" id="section4" onclick="displayOther()">Other</a>
         </div>
 
         <div class="owner" id="owner">
+
+            <div class="owner1">
+
+                <div class="ownername">
+                    <h4>Owner Name</h4>
+                    <p class="ownerN">Lakshya</p>
+                </div>
+    
+                <div class="ownerGuardian">
+                    <h4>Guardian Name</h4>
+                    <p class="ownerG">Madhu</p>
+                </div>
+    
+                <div class="ownerHand">
+                    <h4>Owner Hand</h4>
+                    <p class="ownerH">1</p>
+                </div>
+
+            </div>
+            
+            <div class="ownerAddress">
+                <h4>Owner Address</h4>
+                <p class="ownerA">Betul , Madhya Pradesh</p>
+            </div>
+
+
+              
 
         </div>
 
         <div class="vdetails" id="vdetails">
 
-        </div>
+            <div class="makerName">
+                <h4>Manufacturing Company</h4>
+                <p class="maker">Honda Motercycle and Scooter India Private Limited</p>
+            </div>
+
+            <div class="modelName">
+                <h4>Model Name</h4>
+                <p class="model">Honda Motercycle and Scooter India Private Limited</p>
+            </div>
+
+            <div class="details1">
+
+                
+            <div class="fueltype">
+                <h4>Fuel Type</h4>
+                <p class="fuel">Petrol</p>
+            </div>
+            
+
+            <div class="manufacturingDate">
+                <h4>Manufacturing Date</h4>
+                <p class="Mdate">7/2021</p>
+            </div>
+
+            <div class="engineno">
+                <h4>Engine Number</h4>
+                <p class="engNum">KC40EA0288982</p>
+            </div>
+
+            <div class="chassisNo">
+                <h4>Chassis Number</h4>
+                <p class="cNo">ME4KC401GMA288868</p>
+            </div>
+
+
+            </div>
+         </div>
 
         <div class="Insurance" id="Insurance">
-            
+
+            <div class="insurancepolicyno">
+                <h4>Insurance Policy Number</h4>
+                <p class="cNo">3005/2011488172/00/0000028544</p>
+            </div>
+
+            <div class="insurance1">
+
+                <div class="insuranceDate">
+                    <h4>Insurance Date</h4>
+                    <p class="Idate">2021/01/23</p>
+                </div>
+                
+                <div class="insuranceprovider">
+                    <h4>Insurance Provider</h4>
+                    <p class="Iprovider">ICICI Lombard</p>
+                </div>
+
+            </div>
         </div>
 
         <div class="Other" id="Other">
+
+            <div class="fitnessDate">
+                <h4>Vehicle Fitness Date</h4>
+                <p class="fDate">2036-08-18</p>
+            </div>
+
+            <div class="fitupto">
+                <h4>Vehicle Fit Upto</h4>
+                <p class="fupto">18-Aug-2036</p>
+            </div>
+
+            <div class="puccno">
+                <h4>Pucc Number</h4>
+                <p class="puno">KL0010024</p>
+            </div>
+
+            <div class="pucexpiry">
+                <h4>PUC Expiry</h4>
+                <p class="pexpiry">18-Aug-2022</p>
+            </div>
+
+            <div class="isblacklisted">
+                <h4>Vehile Is Blacklisted?</h4>
+                <p class="isblack">false</p>
+            </div>
+
+
 
         </div>
 
