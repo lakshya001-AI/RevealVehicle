@@ -140,6 +140,27 @@ body, html{
     justify-content: center;
 }
 
+/* sections */
+
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 20px;
+}
+
+.sections .section{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+}
+
+.sections .section:hover{
+    border-bottom: #ffe606 solid;
+}
+
+
 
 
 
