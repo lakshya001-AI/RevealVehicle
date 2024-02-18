@@ -8,7 +8,6 @@ body, html{
     width: 100%;
     font-family: "Poppins", sans-serif;
     height: 100%;
-    position: relative;
 }
 
 /* --------------- navbar --------------------- */
@@ -20,7 +19,11 @@ body, html{
     padding: 10px 10px;
     color: white;
     background-color: black;
-    position: sticky;
+    position: fixed;
+    top: 0; /* or any other value depending on where you want it */
+    left: 0;
+    width: 100%;
+    z-index: 1
 }
 
 .navbar h3{
@@ -38,17 +41,112 @@ body, html{
 /* ---------------- Div 1 ------------------- */
 
 .div1{
-    padding: 20px 30px;
-    border: solid black 3px;
-    margin: 30px 30px;
+    border: 4px solid black;
     border-radius: 10px;
-
+    padding: 20px 20px;
+    margin: 70px 30px 30px;
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    
 }
 
 .div1 img{
     width: 600px;
     border-radius: 20px;
-    margin: 10px 0px;
+    margin: 20px;
 }
+
+/* ------------------- div search ----------------- */
+
+.search{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reveal{
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: revealText 10s infinite; /* Adjust timing as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search h2{
+    border-bottom: solid 3px #ffe606;
+    padding: 0px 0px 5px;
+}
+
+.search p{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.vehicleinput{
+    margin: 20px 10vmax;
+    padding: 10px 10px;
+    outline: none;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+}
+    
+.check{
+    margin: 20px 19vmax;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+/* ------------------- div2 ------------------------- */
+
+.div2{
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 20px 30px;
+    background-color: rgb(236, 236, 236);
+}
+
+.div2 h2{
+    text-align: center;
+    width: fit-content;
+    border-bottom: solid #ffe606 3px;
+}
+
+.viewdetailsdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+    
+
+
+
 
 
