@@ -8,4 +8,47 @@ body, html{
     width: 100%;
     font-family: "Poppins", sans-serif;
     height: 100%;
+    position: relative;
 }
+
+/* --------------- navbar --------------------- */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    position: sticky;
+}
+
+.navbar h3{
+    font-size: 21px;
+}
+
+.contactus{
+    border: none;
+    color: #ffe606;
+    background-color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* ---------------- Div 1 ------------------- */
+
+.div1{
+    padding: 20px 30px;
+    border: solid black 3px;
+    margin: 30px 30px;
+    border-radius: 10px;
+
+}
+
+.div1 img{
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+
