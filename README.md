@@ -36,6 +36,6 @@ Thank you for using RevealVehicle! If you have any questions or concerns, please
 
 ## Contact
 
-For any inquiries or support regarding the RevealVehicle project, please contact [Your Name](mailto:your.email@example.com).
+For any inquiries or support regarding the RevealVehicle project, please contact [Lakshya Makode](mailto:makodelakshya101@example.com).
 
 Thank you for using RevealVehicle!
