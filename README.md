@@ -1,73 +1,38 @@
-# RevealVehicle - Vehicle Details Revealer
+# RevealVehicle
 
 ## Overview
-
-RevealVehicle is a web application designed to retrieve and display detailed information about vehicles using their registration number. This project utilizes an API to fetch relevant data about vehicles based on the provided registration number.
+RevealVehicle is a web application designed to display RC (Registration Certificate) details of vehicles. Users can input the vehicle number, and the application retrieves the relevant information through an API.
 
 ## Features
-
-- **Vehicle Details Retrieval**: Users can input a vehicle registration number, and the application fetches information such as make, model, year, and other relevant details about the vehicle.
-  
-- **API Integration**: The application integrates with a third-party API to fetch vehicle details based on the registration number entered by the user.
-
-## Usage
-
-To use RevealVehicle, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Run the application on a local server or deploy it to a web server.
-4. Access the application through a web browser.
-5. Enter a vehicle registration number in the provided input field.
-6. Hit the 'Submit' button to retrieve the details of the vehicle associated with the registration number.
-
-## API Documentation
-
-The API used in this project follows a specific endpoint structure for retrieving vehicle details. Please refer to the API documentation for more details on how to integrate the API into the project.
+- Retrieve RC details by entering the vehicle number.
+- User-friendly interface built with HTML, CSS, and JavaScript.
+- Utilizes an API to fetch vehicle details.
+- Responsive design for various screen sizes.
 
 ## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-- **HTML/CSS/JavaScript**: Frontend development.
-- **Node.js/Express.js**: Backend server to handle API requests.
-- **Third-Party API**: Used to fetch vehicle details based on registration numbers.
+## Usage
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Enter the vehicle number in the provided input field.
+4. Click on the "Search" button to retrieve the RC details.
+5. The details will be displayed on the screen.
 
-## Installation
+## API
+The application relies on an external API to fetch vehicle details. Make sure you have an active internet connection to use this feature.
 
-To install and run the project locally, follow these steps:
+## Contributions
+Contributions to the project are welcome. If you have any suggestions, feature requests, or bug fixes, please feel free to open an issue or create a pull request.
 
-1. Clone the repository:
+## Acknowledgments
+- The developers and maintainers of the API used in this project.
+- Inspiration for this project came from the need to quickly retrieve vehicle details using a simple web interface.
 
-   ```
-   git clone https://github.com/yourusername/revealvehicle.git
-   ```
+Thank you for using RevealVehicle! If you have any questions or concerns, please don't hesitate to contact us.
 
-2. Navigate to the project directory:
-
-   ```
-   cd revealvehicle
-   ```
-
-3. Install dependencies:
-
-   ```
-   npm install
-   ```
-
-4. Start the server:
-
-   ```
-   npm start
-   ```
-
-5. Access the application in your web browser at `http://localhost:3000`.
-
-## Contributing
-
-Contributions to the RevealVehicle project are welcome. If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
